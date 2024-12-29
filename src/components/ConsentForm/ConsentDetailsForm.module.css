@@ -1,0 +1,409 @@
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  background-color: #f5f5f5;
+  height: 100%;
+  
+  
+}
+
+.title {
+  
+  
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+
+ 
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+.consentForm {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  height: 384px;
+  width: 567px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formGroup label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  width: 180px;
+  
+}
+
+.formGroup input {
+  
+  font-size: 14px;
+  border: 1px solid #ccc;
+  
+  transition: border-color 0.3s ease;
+
+
+  width:317px;
+height: 36px;
+padding: 5.5px 12px 5.5px 12px;
+gap: 12px;
+border-radius: 6px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.formGroup input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+
+.submitButton {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  width: 503px;
+}
+
+.submitButton:hover {
+  background-color: #357abd;
+}
+
+
+.formContainersec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  
+  
+  width: 100%;
+  width: 567px;
+  margin: 50px auto;
+
+  font-family: "Arial", sans-serif;
+  gap: 1px;
+}
+
+
+.headerPart {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 0px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+  gap: 15px;
+}
+
+
+  .headerLogo {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+
+
+  .headerLogo img:first-child {
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(194, 185, 185);
+    position: relative;
+    z-index: 2; 
+  }
+  
+  .headerLogo img:last-child {
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(194, 185, 185);
+    position: relative;
+    margin-left: -5px; 
+    z-index: 1; 
+  }
+
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.headerInfo :first-child {
+  margin: 0;
+  color:#050552CC;
+
+ 
+
+  font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: -0.002em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+.headerInfo :last-child {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.002em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:  #05055299;
+  ;
+  
+}
+
+
+.mainPart {
+  background-color: #ffffff;
+  padding-left: 35px;
+  padding-top: 20px;
+  border-radius: 0px;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  height: 409px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.mainpartDiv{
+  width: 495px;
+height: 87px;
+gap: 4px;
+opacity: 0px;
+
+}
+
+.infoText {
+
+  color: #444;
+  margin-bottom: 5px;
+
+
+  font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: -0.002em;
+
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.detailsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detailsList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  font-size: 14px;
+  color: #333333;
+
+
+
+}
+
+.detailsList input {
+  margin-right: 10px;
+}
+
+.detailsList span {
+  
+  color: #333333;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: -0.002em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.mainPartBottom{
+  display: flex;
+  flex-direction: column;
+  margin-top: 27px;
+  
+  width: 495px;
+height: 87px;
+
+gap: 10px;
+opacity: 0px;
+
+}
+
+.subTitle {
+  
+
+
+  color: #222;
+
+  font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: -0.002em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+
+.mainPartBottom p {
+  color:#05055299;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: -0.002em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+.footerPart {
+  text-align: center;
+  margin-top: 0;
+  background-color: #ffffff;
+  padding: 25px 20px;
+  border-radius: 0px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footerText {
+  
+  color: #555555;
+  margin-bottom: 20px;
+
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: -0.002em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+
+
+
+
+.link {
+  color: #4a90e2;
+
+
+
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: -0.002em;
+text-align: left;
+text-decoration: none;
+
+text-decoration-skip-ink: none;
+
+}
+
+
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.denyButton {
+  background-color: white;
+  width: 50%;
+  color:black;
+  padding: 10px 60px;
+  border:#605f5f 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.allowButton {
+  background-color: #554EF1;
+  color: white;
+  width: 50%;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sdkVersion {
+  
+  color: #05055299;
+
+  margin-top:30px ;
+  font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: -0.002em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
